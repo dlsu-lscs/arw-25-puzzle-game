@@ -1,1 +1,1 @@
-# arw-25-puzzle-game
+# lscs-arw25-puzzle-game
