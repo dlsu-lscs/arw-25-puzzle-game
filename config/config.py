@@ -1,9 +1,10 @@
 import pygame
 
-WIDTH, HEIGHT = 1100, 700
+WIDTH, HEIGHT = 1280, 720
 FPS = 60
 
-pygame.init
+pygame.init()
+
 FONT = pygame.font.SysFont("arial", 24)
 BIG = pygame.font.SysFont("arial", 42, bold=True)
 SMALL = pygame.font.SysFont("arial", 18)
@@ -31,6 +32,15 @@ REFERENCE_KEY = [
 ]
 
 ITEMS = [
-    "RUBY-Δ1", "GEAR-A", "RUBY-◇2", "GEAR-B", "RUBY-◇3",
-    "GEAR-C", "RUBY-◇4", "GEAR-D", "RUBY-Δ2", "GEAR-E",
+    "RUBY-Δ1",
+    "GEAR-A",
+    "RUBY-◇2",
+    "GEAR-B",
+    "RUBY-◇3",
+    "GEAR-C",
+    "RUBY-◇4",
+    "GEAR-D",
+    "RUBY-Δ2",
+    "GEAR-E",
 ]
+
