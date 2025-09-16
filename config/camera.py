@@ -3,11 +3,12 @@ import cv2
 import numpy as np
 import pygame
 
+
 try:
     import mediapipe as mp
-except ImportError:
+except Exception as e:
     mp = None
-
+    print(f"[WARN] Failed to import mediapipe: {e}")
 
 class HandTracker:
     """
